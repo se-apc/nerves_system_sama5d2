@@ -30,7 +30,7 @@ defmodule NervesSystemSAMA5.Mixfile do
 
   defp description do
     """
-    Nerves System - Raspberry Pi 2 B
+    Nerves System - SAM A5D2
     """
   end
 
@@ -38,6 +38,6 @@ defmodule NervesSystemSAMA5.Mixfile do
     [maintainers: [],
     files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs_overlay", "fwup.conf", "cmdline.txt", "linux-4.4.defconfig", "config.txt", "post-createfs.sh"],
      licenses: ["Apache 2.0"],
-     links: %{"Github" => "https://github.com/nerves-project/nerves_system_rpi2"}]
+     links: %{"Github" => "https://github.com/se-apc/nerves_system_sama5d2"}]
   end
 end
